@@ -1,0 +1,23 @@
+.app{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background-color:olive;
+     color: rgb(6, 6, 6);
+     
+    border: 10px darkgreen;
+    border-radius: 12px;
+    font-size: 27px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 9px;
+    width: 30%;
+}
+ .animal-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
